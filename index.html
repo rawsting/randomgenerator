@@ -1,1201 +1,815 @@
-@import url(min.base.css);@import url(min.skeleton.css);.feature-circle,.send_button {
-    text-align: center
-}
-
-#header {
-    background: url(../images/htmlnonsense.png) #363636;
-    padding: 0;
-    margin: 0
-}
-
-#logo {
-    display: block;
-    height: 53px;
-    padding-top: 17px;
-    text-indent: -9999px;
-    background: url(../images/logo.png) 0 20px no-repeat
-}
-
-.clearfix {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden
-}
-
-.spacer {
-    margin-top: 20px
-}
-
-.twitter-share-button {
-    margin-right: 20px;
-    width: 85px!important
-}
-
-#tagline {
-    margin: 15px 0 0;
-    font-size: 25px;
-    font-family: "Open Sans",Arial,sans-serif;
-    color: #505050;
-    letter-spacing: -.6px;
-    line-height: 30px;
-    padding-bottom: 30px
-}
-
-.page_headline,.project_overview h3 {
-    font-family: "Open Sans",Arial,Tahoma;
-    display: block;
-    border-bottom: 1px solid #e1e1e1
-}
-
-#tagline a,#tagline span {
-    background: #81b600;
-    color: #fff;
-    padding: 0 7px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-decoration: none;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    transition: all .2s ease
-}
-
-#tagline a:hover,#tagline span:hover {
-    background: #6b6b6b
-}
-
-#tagline p {
-    margin: 3px;
-    font-size: 20px
-}
-
-.tagline_page {
-    border-bottom: 1px solid #e1e1e1;
-    padding: 0 0 30px
-}
-
-#adtop {
-    padding-top: 5px
-}
-
-#subtitle {
-    background: #f7f7f7;
-    padding: 0;
-    margin: 0;
-    border-bottom: 1px solid #d7d7d7
-}
-
-#subtitle h3 {
-    line-height: 70px;
-    letter-spacing: -.5px;
-    font-size: 24px
-}
-
-#subtitle h3 span {
-    color: #999;
-    font-size: 24px
-}
-
-.page_headline {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: -.5px;
-    padding: 0 0 8px;
-    margin: 20px 0
-}
-
-.feature h4,.project_overview h3 {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: -.5px
-}
-
-#cleantext {
-    margin-top: 15px;
-    background-color: #f2ffde;
-    border: 1px solid #dae6c8;
-    padding: 10px;
-    max-width: 900px
-}
-
-.project_overview p {
-    margin: 15px 0
-}
-
-.project_overview h3 {
-    padding: 0 0 3px;
-    margin: 0 0 15px
-}
-
-.project_navi {
-    margin-top: -55px!important
-}
-
-.feature {
-    margin: 15px 0 50px
-}
-
-.feature.page {
-    margin: 0 0 40px
-}
-
-.feature-circle {
-    font-size: 16px;
-    font-weight: 700;
-    font-family: "open sans",sans-serif;
-    display: inline-block;
-    width: 35px;
-    line-height: 35px;
-    color: #fff;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    float: left;
-    margin-top: 10px
-}
-
-.feature-description p {
-    margin-bottom: 15px!important
-}
-
-.feature-circle.green {
-    background: #81b600
-}
-
-.feature-circle.gray {
-    background: #6b6b6b
-}
-
-#divider {
-    margin: 50px 0 26px;
-    border-bottom: 1px solid #e1e1e1
-}
-
-.related-title {
-    background: url(../images/divider_bg.png) 50% 62% repeat-x;
-    margin: 0 0 15px
-}
-
-.related-title span {
-    color: #464646;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: -.5px;
-    font-family: "Open Sans",sans-serif;
-    background: #fdfdfd;
-    padding: 0 10px 0 0
-}
-
-#google_map {
-    padding: 0 0 40%
-}
-
-.page_content {
-    margin-bottom: 25px
-}
-
-.page_content span.no_error {
-    display: block;
-    color: #458e4b;
-    font-weight: 400;
-    background-color: #defbc7;
-    border: 1px solid #abcf9d;
-    font-size: 12px;
-    text-align: center;
-    height: 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    overflow: hidden;
-    width: 100%
-}
-
-.contact_submit {
-    margin: 10px 0 0;
-    cursor: pointer;
-}
-
-#contact_send {
-    width: 140px;
-    margin-bottom: 7px;
-    height: 40px;
-    background-color: #94C127;
-    color: #fff;
-    border: none;
-    border-radius: 45px;
-    font-size: 15px;
-    font-weight: 700
-}
-
-.contact_text,#textagain {
-    text-align: center;
-    position: absolute;
-    width: 96.2%;
-    height: 222px;
-    background: #89898917;
-    display: none;
-}
-
-#textagain.visible {
-    display: block;
-}
-
-#textagain a {
-    display: inline-block;
-    font-weight: bold;
-    background: #94c127;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 40px;
-    font-size: 16px;
-    width: 180px;
-    margin: 100px auto;
-}
-
-.send_button.hidden {
-    display: none;
-}
-
-.contact_textarea {
-    border: 1px solid #d7d7d7;
-    font-size: 12px;
-    font-family: Tahoma,Arial,sans-serif;
-    background-color: #fff;
-    outline: 0
-}
-
-.contact_text {
-    width: 250px;
-    color: #888;
-    padding: 9px
-}
-
-.contact_form {
-    margin-top: 20px;
-}
-
-.contact_form label:last-of-type {
-    float: right;
-}
-
-.contact_form label:first-of-type {
-    display: block;
-    float: left;
-    margin: 0 0 5px
-}
-
-.contact_form label span {
-    color: red
-}
-
-.contact_textarea {
-    width: 96%;
-    max-width: 96%;
-    height: 200px;
-    color: #888;
-    padding: 10px;
-    -webkit-box-shadow: 0 0 3px #e8e8e8;
-    -moz-box-shadow: 0 0 3px #e8e8e8;
-    box-shadow: 0 0 3px #e8e8e8
-}
-
-.input_error {
-    background: #ffeceb;
-    border: 1px solid #f2c4c2
-}
-
-.input_noerror {
-    background: #fff;
-    border: 1px solid #d8d8d8
-}
-
-.contact_text:focus,.contact_textarea:focus {
-    border: 1px solid #cbcbcb;
-    -webkit-box-shadow: 0 0 10px #e8e8e8;
-    -moz-box-shadow: 0 0 10px #e8e8e8;
-    box-shadow: 0 0 10px #e8e8e8
-}
-
-.address_contact {
-    color: #676767;
-    font-family: Tahoma,arial,sans-serif;
-    padding-bottom: 12px;
-    line-height: 18px
-}
-
-.address_contact img {
-    float: left;
-    padding-right: 7px
-}
-
-.address_contact strong {
-    font-weight: 700;
-    color: #555;
-    display: block;
-    float: left;
-    padding-bottom: 8px;
-    padding-right: 4px;
-    font-family: Arial,Helvetica,sans-serif
-}
-
-.address_contact a {
-    color: #6f9c00
-}
-
-.address_contact a:hover {
-    color: #888
-}
-
-#footer {
-    background: #363636;
-    margin: 0;
-    color: #bbb;
-    padding: 5px 0
-}
-
-#footer p {
-    line-height: 20px
-}
-
-#footer_bottom {
-    background: url(../images/htmlnonsense.png) #363636;
-    border-top: 1px solid #484848
-}
-
-#footer-logo {
-    height: 70px;
-    margin: 5px 0 0
-}
-
-#footer h4 {
-    font-family: "Open Sans",Arial,sans-serif;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: -.5px;
-    display: block;
-    border-bottom: 1px solid #484848;
-    padding: 10px 0;
-    margin: 5px 0 15px
-}
-
-.author-info,.copyright {
-    line-height: 50px;
-    color: #aaa
-}
-
-.author-info a,.author-info span,.copyright a,.copyright span {
-    color: #fff
-}
-
-.author-info {
-    float: right
-}
-
-.sixteen.columns .topaa {
-    display: none
-}
-
-@media only screen and (min-width: 960px) {
-    .sixteen.columns .topaa {
-        display:block
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+
+<head>
+	<meta charset="utf-8">
+	<title>Random phone number generator - instant</title>
+	<meta name="description" content="Free online tool to generate phone number. Simply select country type. Click on generate to get phone numbers. This phone number generator works instand and is free for all" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+	<link rel="stylesheet" type="text/css"  href="min.style.css">
+
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+	window.onload = function() {
+  		document.getElementById("textbox").focus();
+	};
+		
+	function charcountupdate(str) {
+		var lng = str.length;
+		document.getElementById("charcount").innerHTML = lng + ' characters';
+	}
+	</script>
+
+
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--[if (gte IE 6)&(lte IE 8)]>
+	  	<script src="js/selectivizr.js"></script>
+	<![endif]-->
+
+<!-- adsense code here  -->
+
+</head>
+<body>
+	<!-- Header -->
+	<div id="header">
+
+		<!-- 960 Container -->
+		<div class="container">
+
+			<!-- Logo -->
+			<div class="four columns">
+					<a href="/"><span id="logo"></span></a>
+			</div>
+
+		</div>
+	</div><!-- End Header -->
+
+	<!-- 960 Container -->
+	<div class="container">
+
+		<!-- Tagline -->
+		<div class="sixteen columns">		
+			<br />
+
+			<div id="tagline">
+				
+				<div class="eight columns alpha">
+					<h1>Random phone number generator</h1>
+
+					<p>Select random country and click on generate</p>
+
+					
+					<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<br /><br />
+				</div>
+				
+				<div class="eight columns alpha eightright">
+					<!-- StripHTML_S2S_Leaderboard_ROS_Pos1 -->
+					<div id="bsa-zone_1615580422946-1_123456" style="float:right"></div>
+				</div>
+
+
+			</div>
+		</div>
+		
+		<!-- Slider -->
+		<div class="sixteen columns">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Phone Number Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
     }
-
-    .eightright {
-        margin-top: -50px
-    }
-
-    .flexslider.home {
-        height: 390px
-    }
-
-    .flexslider {
-        min-height: 1px
-    }
-
-    .flexslider.blog {
-        height: auto
-    }
-
-    #portfolio-wrapper {
-        min-height: 600px
-    }
-}
-
-@media only screen and (max-width: 959px) {
-    .eightright {
-        margin-top:-20px
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width:959px) {
-    #tagline {
-        font-size:20px
-    }
-
-    #navigation ul li a {
-        font-size: 11px
-    }
-
-    #navigation ul ul li a {
-        font-size: 12px
-    }
-
-    .testimonials_author {
-        display: none
-    }
-
-    .flickr-widget a {
-        height: 45px;
-        width: 45px
-    }
-
-    .flickr-widget-blog a {
-        height: 59px;
-        width: 59px
-    }
-
-    .avatar {
-        height: 40px;
-        width: 40px
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    #adtop,#backtotop a,#blog_widget_container,#navigation ul,.author-info,.slider-caption,.slider-caption-2 {
-        display:none
-    }
-
-    #navigation {
-        float: left;
-        width: 100%
-    }
-
-    #navigation select {
-        display: block;
-        float: left
-    }
-
-    #tagline {
-        font-size: 20px
-    }
-
-    .copyright {
-        font-size: 11px
-    }
-
-    .mr-rotato-disabled,.mr-rotato-next,.mr-rotato-prev {
-        margin-right: -10px
-    }
-
-    .flickr-widget {
-        margin-bottom: 25px
-    }
-
-    .meta-blog h4 {
-        padding-top: 0;
-        margin-top: 0
-    }
-
-    .portfolio-item-meta {
-        margin: 0 0 25px
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width:767px) {
-    .flickr-widget a {
-        height:39px;
-        width: 39px
-    }
-
-    .img-blog {
-        float: left;
-        width: 30%;
-        margin: 0 15px 15px 0
-    }
-
-    .avatar {
-        height: 35px;
-        width: 35px
-    }
-
-    .contact_textarea {
-        width: 94%;
-        max-width: 94%
-    }
-}
-
-@media only screen and (max-width: 479px) {
-    .flickr-widget a {
-        height:47px;
-        width: 47px
-    }
-
-    .img-blog {
-        float: left;
-        width: 30%;
-        margin: 0 15px 15px 0
-    }
-
-    .meta-blog p,.meta-blog span {
-        font-size: 11px;
-        padding: 0;
-        line-height: 18px;
-        margin: 0
-    }
-
-    .post-meta {
-        display: none
-    }
-
-    .post h2 a {
-        margin-bottom: 10px
-    }
-
-    .avatar {
-        height: 25px;
-        width: 25px
-    }
-
-    .contact_textarea {
-        width: 92%;
-        max-width: 92%
-    }
-}
-.container {
-    position: relative;
-    width: 960px;
-    margin: 0 auto;
-    padding: 0
-}
-
-.container .column,.container .columns {
-    float: left;
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px
-}
-
-.row {
-    margin-bottom: 20px
-}
-
-.column.alpha,.columns.alpha {
-    margin-left: 0
-}
-
-.column.omega,.columns.omega {
-    margin-right: 0
-}
-
-.container .one.column,.container .one.columns {
-    width: 40px
-}
-
-.container .two.columns {
-    width: 100px
-}
-
-.container .three.columns {
-    width: 160px
-}
-
-.container .four.columns {
-    width: 220px
-}
-
-.container .five.columns {
-    width: 280px
-}
-
-.container .six.columns {
-    width: 340px
-}
-
-.container .seven.columns {
-    width: 400px
-}
-
-.container .eight.columns {
-    width: 460px
-}
-
-.container .nine.columns {
-    width: 520px
-}
-
-.container .ten.columns {
-    width: 580px
-}
-
-.container .eleven.columns {
-    width: 640px
-}
-
-.container .twelve.columns {
-    width: 700px
-}
-
-.container .thirteen.columns {
-    width: 760px
-}
-
-.container .fourteen.columns {
-    width: 820px
-}
-
-.container .fifteen.columns {
-    width: 880px
-}
-
-.container .sixteen.columns {
-    width: 940px
-}
-
-.container .one-third.column {
-    width: 300px
-}
-
-.container .two-thirds.column {
-    width: 620px
-}
-
-.container .offset-by-one {
-    padding-left: 60px
-}
-
-.container .offset-by-two {
-    padding-left: 120px
-}
-
-.container .offset-by-three {
-    padding-left: 180px
-}
-
-.container .offset-by-four {
-    padding-left: 240px
-}
-
-.container .offset-by-five {
-    padding-left: 300px
-}
-
-.container .offset-by-six {
-    padding-left: 360px
-}
-
-.container .offset-by-seven {
-    padding-left: 420px
-}
-
-.container .offset-by-eight {
-    padding-left: 480px
-}
-
-.container .offset-by-nine {
-    padding-left: 540px
-}
-
-.container .offset-by-ten {
-    padding-left: 600px
-}
-
-.container .offset-by-eleven {
-    padding-left: 660px
-}
-
-.container .offset-by-twelve {
-    padding-left: 720px
-}
-
-.container .offset-by-thirteen {
-    padding-left: 780px
-}
-
-.container .offset-by-fourteen {
-    padding-left: 840px
-}
-
-.container .offset-by-fifteen {
-    padding-left: 900px
-}
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
-        width:768px
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: left;
+      color: #464646;
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: baseline;
+      margin-top: 20px;
+    }
+    select {
+      padding: 10px;
+      margin-right: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
+      border: 1px solid #27f56c;
+      border-radius: 7px;
+      background-color: #fff;
+    }
+    button[type="submit"] {
+      padding: 10px 10px;
+      background-color: #27f56c;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+    .phone-number {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+      display: none;
+    }
+    .copy-button-container {
+      text-align: center;
+    }
+    .copy-button {
+      padding: 10px 20px;
+      background-color: #27f56c;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      cursor: pointer;
+      display: none;
+    }
+    .loading-spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid #27f56c;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 2s linear infinite;
+      display: none;
     }
 
-    .container .column,.container .columns {
-        margin-left: 10px;
-        margin-right: 10px
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Random Phone Number Generator</h1>
+    <form onsubmit="return generatePhoneNumber()">
+      <select id="countrySelect">
+        <option value="US">United States (+1)</option>
+<option value="UK">United Kingdom (+44)</option>
+<option value="IN">India (+91)</option>
+<option value="AF">Afghanistan (+93)</option>
+<option value="AX">Åland (+358 (18))</option>
+<option value="AL">Albania (+355)</option>
+<option value="DZ">Algeria (+213)</option>
+<option value="AD">Andorra (+376)</option>
+<option value="AO">Angola (+244)</option>
+<option value="AI">Anguilla (+1 (264))</option>
+<option value="AG">Antigua and Barbuda (+1 (268))</option>
+<option value="AR">Argentina (+54)</option>
+<option value="AM">Armenia (+374)</option>
+<option value="AW">Aruba (+297)</option>
+<option value="AC">Ascension (+247)</option>
+<option value="AU">Australia (+61)</option>
+<option value="AT">Austria (+43)</option>
+<option value="AZ">Azerbaijan (+994)</option>
+<option value="BS">Bahamas (+1 (242))</option>
+<option value="BH">Bahrain (+973)</option>
+<option value="BD">Bangladesh (+880)</option>
+<option value="BB">Barbados (+1 (246))</option>
+<option value="BY">Belarus (+375)</option>
+<option value="BE">Belgium (+32)</option>
+<option value="BZ">Belize (+501)</option>
+<option value="BJ">Benin (+229)</option>
+<option value="BM">Bermuda (+1 (441))</option>
+<option value="BT">Bhutan (+975)</option>
+<option value="BO">Bolivia (+591)</option>
+<option value="BQ">Bonaire (+599 (7))</option>
+<option value="BA">Bosnia and Herzegovina (+387)</option>
+<option value="BW">Botswana (+267)</option>
+<option value="BR">Brazil (+55)</option>
+<option value="IO">British Indian Ocean Territory (Diego Garcia) (+246)</option>
+<option value="VG">British Virgin Islands (+1 (284))</option>
+<option value="BN">Brunei Darussalam (+673)</option>
+<option value="BG">Bulgaria (+359)</option>
+<option value="BF">Burkina Faso (+226)</option>
+<option value="BI">Burundi (+257)</option>
+<option value="CV">Cape Verde (+238)</option>
+<option value="KH">Cambodia (+855)</option>
+<option value="CM">Cameroon (+237)</option>
+<option value="CA">Canada (+1)</option>
+<option value="KY">Cayman Islands (+1 (345))</option>
+<option value="CF">Central African Republic (+236)</option>
+<option value="TD">Chad (+235)</option>
+<option value="CL">Chile (+56)</option>
+<option value="CN">China (+86)</option>
+<option value="CX">Christmas Island (+61 (89164))</option>
+<option value="CC">Cocos (Keeling) Islands (+61 (89162))</option>
+<option value="CO">Colombia (+57)</option>
+<option value="KM">Comoros (+269)</option>
+<option value="CG">Congo (+242)</option>
+<option value="CD">Congo, Democratic Republic of the (+243)</option>
+<option value="CK">Cook Islands (+682)</option>
+<option value="CR">Costa Rica (+506)</option>
+<option value="CI">Ivory Coast (Côte d'Ivoire) (+225)</option>
+<option value="HR">Croatia (+385)</option>
+<option value="CU">Cuba (+53)</option>
+<option value="CW">Curaçao (+599 (9))</option>
+<option value="CY">Cyprus (+357)</option>
+<option value="CZ">Czech Republic (+420)</option>
+<option value="DK">Denmark (+45)</option>
+<option value="DJ">Djibouti (+253)</option>
+<option value="DM">Dominica (+1 (767))</option>
+<option value="DO">Dominican Republic (+1 (809, 829, 849))</option>
+<option value="EC">Ecuador (+593)</option>
+<option value="EG">Egypt (+20)</option>
+<option value="SV">El Salvador (+503)</option>
+<option value="GQ">Equatorial Guinea (+240)</option>
+<option value="ER">Eritrea (+291)</option>
+<option value="EE">Estonia (+372)</option>
+<option value="SZ">Eswatini (+268)</option>
+<option value="ET">Ethiopia (+251)</option>
+<option value="FK">Falkland Islands (+500)</option>
+<option value="FO">Faroe Islands (+298)</option>
+<option value="FJ">Fiji (+679)</option>
+<option value="FI">Finland (+358)</option>
+<option value="FR">France (+33)</option>
+<option value="GF">French Guiana (+594)</option>
+<option value="PF">French Polynesia (+689)</option>
+<option value="GA">Gabon (+241)</option>
+<option value="GM">Gambia (+220)</option>
+<option value="GE">Georgia (+995)</option>
+<option value="DE">Germany (+49)</option>
+<option value="GH">Ghana (+233)</option>
+<option value="GI">Gibraltar (+350)</option>
+<option value="GR">Greece (+30)</option>
+<option value="GL">Greenland (+299)</option>
+<option value="GD">Grenada (+1 (473))</option>
+<option value="GP">Guadeloupe (+590)</option>
+<option value="GU">Guam (+1 (671))</option>
+<option value="GT">Guatemala (+502)</option>
+<option value="GG">Guernsey (+44 (1481, 7781, 7839, 7911))</option>
+<option value="GN">Guinea (+224)</option>
+<option value="GW">Guinea-Bissau (+245)</option>
+<option value="GY">Guyana (+592)</option>
+<option value="HT">Haiti (+509)</option>
+<option value="HN">Honduras (+504)</option>
+<option value="HK">Hong Kong (+852)</option>
+<option value="HU">Hungary (+36)</option>
+<option value="IS">Iceland (+354)</option>
+<option value="INMARSAT">Inmarsat SNAC (+870)</option>
+<option value="UIFN">International Freephone Service (UIFN) (+800)</option>
+<option value="IR">Iran (+98)</option>
+<option value="IQ">Iraq (+964)</option>
+<option value="IE">Ireland (+353)</option>
+<option value="IRIDIUM">Iridium (Mobile Satellite service) (+881 (6, 7))</option>
+<option value="IM">Isle of Man (+44 (1624, 7524, 7624, 7924))</option>
+<option value="IL">Israel (+972)</option>
+<option value="IT">Italy (+39)</option>
+<option value="JM">Jamaica (+1 (658, 876))</option>
+<option value="JM">Jan Mayen (+47 (79))</option>
+<option value="JP">Japan (+81)</option>
+<option value="JE">Jersey (+44 (1534))</option>
+<option value="JO">Jordan (+962)</option>
+<option value="KZ">Kazakhstan (+7 (6, 7) (997 assigned but unused))</option>
+<option value="KE">Kenya (+254)</option>
+<option value="KI">Kiribati (+686)</option>
+<option value="KP">Korea, North (+850)</option>
+<option value="KR">Korea, South (+82)</option>
+<option value="XK">Kosovo (+383)</option>
+<option value="KW">Kuwait (+965)</option>
+<option value="KG">Kyrgyzstan (+996)</option>
+<option value="LA">Laos (+856)</option>
+<option value="LV">Latvia (+371)</option>
+<option value="LB">Lebanon (+961)</option>
+<option value="LS">Lesotho (+266)</option>
+<option value="LR">Liberia (+231)</option>
+<option value="LY">Libya (+218)</option>
+<option value="LI">Liechtenstein (+423)</option>
+<option value="LT">Lithuania (+370)</option>
+<option value="LU">Luxembourg (+352)</option>
+<option value="MO">Macau (+853)</option>
+<option value="MG">Madagascar (+261)</option>
+<option value="MW">Malawi (+265)</option>
+<option value="MY">Malaysia (+60)</option>
+<option value="MV">Maldives (+960)</option>
+<option value="ML">Mali (+223)</option>
+<option value="MT">Malta (+356)</option>
+<option value="MH">Marshall Islands (+692)</option>
+<option value="MQ">Martinique (+596)</option>
+<option value="MR">Mauritania (+222)</option>
+<option value="MU">Mauritius (+230)</option>
+<option value="YT">Mayotte (+262 (269, 639))</option>
+<option value="MX">Mexico (+52)</option>
+<option value="FM">Micronesia, Federated States of (+691)</option>
+<option value="MD">Moldova (+373)</option>
+<option value="MC">Monaco (+377)</option>
+<option value="MN">Mongolia (+976)</option>
+<option value="ME">Montenegro (+382)</option>
+<option value="MS">Montserrat (+1 (664))</option>
+<option value="MA">Morocco (+212)</option>
+<option value="MZ">Mozambique (+258)</option>
+<option value="MM">Myanmar (+95)</option>
+<option value="AM">Artsakh (+374 (47, 97))</option>
+<option value="NA">Namibia (+264)</option>
+<option value="NR">Nauru (+674)</option>
+<option value="NP">Nepal (+977)</option>
+<option value="NL">Netherlands (+31)</option>
+<option value="KN">Nevis (+1 (869))</option>
+<option value="NC">New Caledonia (+687)</option>
+<option value="NZ">New Zealand (+64)</option>
+<option value="NI">Nicaragua (+505)</option>
+<option value="NE">Niger (+227)</option>
+<option value="NG">Nigeria (+234)</option>
+<option value="NU">Niue (+683)</option>
+<option value="NF">Norfolk Island (+672 (3))</option>
+<option value="MK">North Macedonia (+389)</option>
+<option value="CY">Northern Cyprus (+90 (392))</option>
+<option value="GB">Northern Ireland (+44 (28))</option>
+<option value="MP">Northern Mariana Islands (+1 (670))</option>
+<option value="NO">Norway (+47)</option>
+<option value="OM">Oman (+968)</option>
+<option value="PK">Pakistan (+92)</option>
+<option value="PW">Palau (+680)</option>
+<option value="PS">Palestine (+970)</option>
+<option value="PA">Panama (+507)</option>
+<option value="PG">Papua New Guinea (+675)</option>
+<option value="PY">Paraguay (+595)</option>
+<option value="PE">Peru (+51)</option>
+<option value="PH">Philippines (+63)</option>
+<option value="PN">Pitcairn Islands (+64 (4))</option>
+<option value="PL">Poland (+48)</option>
+<option value="PT">Portugal (+351)</option>
+<option value="PR">Puerto Rico (+1 (787, 939))</option>
+<option value="QA">Qatar (+974)</option>
+<option value="RE">Réunion (+262)</option>
+<option value="RO">Romania (+40)</option>
+<option value="RU">Russia (+7)</option>
+<option value="RW">Rwanda (+250)</option>
+<option value="BL">Saint Barthélemy (+590)</option>
+<option value="SH">Saint Helena (+290)</option>
+<option value="KN">Saint Kitts and Nevis (+1 (869))</option>
+<option value="LC">Saint Lucia (+1 (758))</option>
+<option value="MF">Saint Martin (+590)</option>
+<option value="PM">Saint Pierre and Miquelon (+508)</option>
+<option value="VC">Saint Vincent and the Grenadines (+1 (784))</option>
+<option value="WS">Samoa (+685)</option>
+<option value="SM">San Marino (+378)</option>
+<option value="ST">São Tomé and Príncipe (+239)</option>
+<option value="SA">Saudi Arabia (+966)</option>
+<option value="SN">Senegal (+221)</option>
+<option value="RS">Serbia (+381)</option>
+<option value="SC">Seychelles (+248)</option>
+<option value="SL">Sierra Leone (+232)</option>
+<option value="SG">Singapore (+65)</option>
+<option value="SX">Sint Maarten (+1 (721))</option>
+<option value="SK">Slovakia (+421)</option>
+<option value="SI">Slovenia (+386)</option>
+<option value="SB">Solomon Islands (+677)</option>
+<option value="SO">Somalia (+252)</option>
+<option value="ZA">South Africa (+27)</option>
+<option value="GS">South Georgia and the South Sandwich Islands (+500)</option>
+<option value="SS">South Sudan (+211)</option>
+<option value="ES">Spain (+34)</option>
+<option value="LK">Sri Lanka (+94)</option>
+<option value="SD">Sudan (+249)</option>
+<option value="SR">Suriname (+597)</option>
+<option value="SJ">Svalbard (+47 (79))</option>
+<option value="SE">Sweden (+46)</option>
+<option value="CH">Switzerland (+41)</option>
+<option value="SY">Syria (+963)</option>
+<option value="TW">Taiwan (+886)</option>
+<option value="TJ">Tajikistan (+992)</option>
+<option value="TZ">Tanzania (+255)</option>
+<option value="TH">Thailand (+66)</option>
+<option value="TL">Timor-Leste (+670)</option>
+<option value="TG">Togo (+228)</option>
+<option value="TK">Tokelau (+690)</option>
+<option value="TO">Tonga (+676)</option>
+<option value="TT">Trinidad and Tobago (+1 (868))</option>
+<option value="TA">Tristan da Cunha (+290 8)</option>
+<option value="TN">Tunisia (+216)</option>
+<option value="TR">Turkey (+90)</option>
+<option value="TM">Turkmenistan (+993)</option>
+<option value="TC">Turks and Caicos Islands (+1 (649))</option>
+<option value="TV">Tuvalu (+688)</option>
+<option value="UG">Uganda (+256)</option>
+<option value="UA">Ukraine (+380)</option>
+<option value="AE">United Arab Emirates (+971)</option>
+<option value="UY">Uruguay (+598)</option>
+<option value="UZ">Uzbekistan (+998)</option>
+<option value="VU">Vanuatu (+678)</option>
+<option value="VA">Vatican City (+39 (066))</option>
+<option value="VE">Venezuela (+58)</option>
+<option value="VN">Vietnam (+84)</option>
+<option value="WF">Wallis and Futuna (+681)</option>
+<option value="EH">Western Sahara (+212)</option>
+<option value="YE">Yemen (+967)</option>
+<option value="ZM">Zambia (+260)</option>
+<option value="ZW">Zimbabwe (+263)</option>
+</select>
+
+
+        <!-- Add more countries as needed -->
+      </select>
+      <button type="submit">Generate</button>
+    </form>
+    <div class="phone-number" id="phoneNumber"></div>
+    <div class="copy-button-container">
+      <button class="copy-button" id="copyButton" onclick="copyPhoneNumber()">Copy to Clipboard</button>
+      <div class="loading-spinner" id="loadingSpinner"></div>
+    </div>
+  </div>
+
+  <script>
+    function generatePhoneNumber() {
+      const countrySelect = document.getElementById("countrySelect");
+      const countryCode = countrySelect.value;
+      const countryFormats = {
+            "US": "1XXXXXXXXXX",
+    "UK": "44XXXXXXXXXX",
+    "IN": "91XXXXXXXXX",
+    "AF": "93XXXXXXXXX",
+    "AX": "35818XXXXXX",
+    "AL": "355XXXXXXXX",
+    "DZ": "213XXXXXXXX",
+    "AD": "376XXXXXXXX",
+    "AO": "244XXXXXXXX",
+    "AI": "1264XXXXXX",
+    "AG": "1268XXXXXX",
+    "AR": "54XXXXXXXX",
+    "AM": "374XXXXXXXX",
+    "AW": "297XXXXXXXX",
+    "AC": "247XXXXXXXX",
+    "AU": "61XXXXXXXXX",
+    "AT": "43XXXXXXXXX",
+    "AZ": "994XXXXXXXX",
+    "BS": "1242XXXXXX",
+    "BH": "973XXXXXXXX",
+    "BD": "880XXXXXXXX",
+    "BB": "1246XXXXXX",
+    "BY": "375XXXXXXXX",
+    "BE": "32XXXXXXXXX",
+    "BZ": "501XXXXXXXX",
+    "BJ": "229XXXXXXXX",
+    "BM": "1441XXXXXX",
+    "BT": "975XXXXXXXX",
+    "BO": "591XXXXXXXX",
+    "BQ": "5997XXXXXX",
+    "BA": "387XXXXXXXX",
+    "BW": "267XXXXXXXX",
+    "BR": "55XXXXXXXXX",
+    "IO": "246XXXXXXXX",
+    "VG": "1284XXXXXX",
+    "BN": "673XXXXXXXX",
+    "BG": "359XXXXXXXX",
+    "BF": "226XXXXXXXX",
+    "BI": "257XXXXXXXX",
+    "CV": "238XXXXXXXX",
+    "KH": "855XXXXXXXX",
+    "CM": "237XXXXXXXX",
+    "CA": "1XXXXXXXXXX",
+    "KY": "1345XXXXXX",
+    "CF": "236XXXXXXXX",
+    "TD": "235XXXXXXXX",
+    "CL": "56XXXXXXXXX",
+    "CN": "86XXXXXXXXX",
+    "CX": "6189164XXX",
+    "CC": "6189162XXX",
+    "CO": "57XXXXXXXXX",
+    "KM": "269XXXXXXXX",
+    "CG": "242XXXXXXXX",
+    "CD": "243XXXXXXXX",
+    "CK": "682XXXXXXXX",
+    "CR": "506XXXXXXXX",
+    "CI": "225XXXXXXXX",
+    "HR": "385XXXXXXXX",
+    "CU": "53XXXXXXXXX",
+    "CW": "5999XXXXXX",
+    "CY": "357XXXXXXXX",
+    "CZ": "420XXXXXXXX",
+    "DK": "45XXXXXXXXX",
+    "DJ": "253XXXXXXXX",
+    "DM": "1767XXXXXX",
+    "DO": "1809XXXXXXXX, 1829XXXXXXXX, 1849XXXXXXXX",
+    "EC": "593XXXXXXXX",
+    "EG": "20XXXXXXXXX",
+    "SV": "503XXXXXXXX",
+    "GQ": "240XXXXXXXX",
+    "ER": "291XXXXXXXX",
+    "EE": "372XXXXXXXX",
+    "SZ": "268XXXXXXXX",
+    "ET": "251XXXXXXXX",
+    "FK": "500XXXXXXXX",
+    "FO": "298XXXXXXXX",
+    "FJ": "679XXXXXXXX",
+    "FI": "358XXXXXXXX",
+    "FR": "33XXXXXXXXX",
+    "GF": "594XXXXXXXX",
+    "PF": "689XXXXXXXX",
+    "GA": "241XXXXXXXX",
+    "GM": "220XXXXXXXX",
+    "GE": "995XXXXXXXX",
+    "DE": "49XXXXXXXXX",
+    "GH": "233XXXXXXXX",
+    "GI": "350XXXXXXXX",
+    "GR": "30XXXXXXXXX",
+    "GL": "299XXXXXXXX",
+    "GD": "1473XXXXXX",
+    "GP": "590XXXXXXXX",
+    "GU": "1671XXXXXX",
+    "GT": "502XXXXXXXX",
+    "GG": "441481XXXX, 447781XXXX, 447839XXXX, 447911XXXX",
+    "GN": "224XXXXXXXX",
+    "GW": "245XXXXXXXX",
+    "GY": "592XXXXXXXX",
+    "HT": "509XXXXXXXX",
+    "HN": "504XXXXXXXX",
+    "HK": "852XXXXXXXX",
+    "HU": "36XXXXXXXXX",
+    "IS": "354XXXXXXXXX",
+    "INMARSAT": "870XXXXXXXX",
+    "UIFN": "800XXXXXXXX",
+    "IR": "98XXXXXXXXX",
+    "IQ": "964XXXXXXXX",
+    "IE": "353XXXXXXXXX",
+    "IRIDIUM": "8816XXX, 8817XXX",
+    "IM": "441624XXXX, 447524XXXX, 447624XXXX, 447924XXXX",
+    "IL": "972XXXXXXXX",
+    "IT": "39XXXXXXXXX",
+    "JM": "1658XXXXXX, 1876XXXXXX",
+    "JM": "47XXXX",
+    "JP": "81XXXXXXXXX",
+    "JE": "441534XXXX",
+    "JO": "962XXXXXXXX",
+    "KZ": "76XXXX, 77XXXX, 997 (Assigned but unused)",
+    "KE": "254XXXXXXXX",
+    "KI": "686XXXXXXXX",
+    "KP": "850XXXXXXXX",
+    "KR": "82XXXXXXXXX",
+    "XK": "383XXXXXXXX",
+    "KW": "965XXXXXXXX",
+    "KG": "996XXXXXXXX",
+    "LA": "856XXXXXXXX",
+    "LV": "371XXXXXXXX",
+    "LB": "961XXXXXXXX",
+    "LS": "266XXXXXXXX",
+    "LR": "231XXXXXXXX",
+    "LY": "218XXXXXXXX",
+    "LI": "423XXXXXXXX",
+    "LT": "370XXXXXXXX",
+    "LU": "352XXXXXXXX",
+    "MO": "853XXXXXXXX",
+    "MG": "261XXXXXXXX",
+    "MW": "265XXXXXXXX",
+    "MY": "60XXXXXXXXX",
+    "MV": "960XXXXXXXX",
+    "ML": "223XXXXXXXX",
+    "MT": "356XXXXXXXX",
+    "MH": "692XXXXXXXX",
+    "MQ": "596XXXXXXXX",
+    "MR": "222XXXXXXXX",
+    "MU": "230XXXXXXXX",
+    "YT": "262269XXXX, 262639XXXX",
+    "MX": "52XXXXXXXXX",
+    "FM": "691XXXXXXXX",
+    "MD": "373XXXXXXXX",
+    "MC": "377XXXXXXXX",
+    "MN": "976XXXXXXXX",
+    "ME": "382XXXXXXXX",
+    "MS": "1664XXXXXX",
+    "MA": "212XXXXXXXX",
+    "MZ": "258XXXXXXXX",
+    "MM": "95XXXXXXXXX",
+    "AM": "374479XXXX, 37497XXXX",
+    "NA": "264XXXXXXXX",
+    "NR": "674XXXXXXXX",
+    "NP": "977XXXXXXXX",
+    "NL": "31XXXXXXXXX",
+    "KN": "1869XXXXXX",
+    "NC": "687XXXXXXXX",
+    "NZ": "64XXXXXXXXX",
+    "NI": "505XXXXXXXX",
+    "NE": "227XXXXXXXX",
+    "NG": "234XXXXXXXX",
+    "NU": "683XXXXXXXX",
+    "NF": "6723XXXXX",
+    "MK": "389XXXXXXXX",
+    "CY": "90392XXXXXXXX",
+    "GB": "4428XXXX",
+    "MP": "1670XXXXXX",
+    "NO": "47XXXXXXXXX",
+    "OM": "968XXXXXXXX",
+    "PK": "92XXXXXXXXX",
+    "PW": "680XXXXXXXX",
+    "PS": "970XXXXXXXX",
+    "PA": "507XXXXXXXX",
+    "PG": "675XXXXXXXX",
+    "PY": "595XXXXXXXX",
+    "PE": "51XXXXXXXXX",
+    "PH": "63XXXXXXXXX",
+    "PN": "6434XXXXX",
+    "PL": "48XXXXXXXXX",
+    "PT": "351XXXXXXXX",
+    "PR": "1787XXXXXX, 1939XXXXXX",
+    "QA": "974XXXXXXXX",
+    "RE": "262XXXXXXXX",
+    "RO": "40XXXXXXXXX",
+    "RU": "7XXXXXXXXX",
+    "RW": "250XXXXXXXX",
+    "BL": "590XXXXXXXX",
+    "SH": "290XXXXXXXX",
+    "KN": "1869XXXXXX",
+    "LC": "1758XXXXXX",
+    "MF": "590XXXXXXXX",
+    "PM": "508XXXXXXXX",
+    "VC": "1784XXXXXX",
+    "WS": "685XXXXXXXX",
+    "SM": "378XXXXXXXX",
+    "ST": "239XXXXXXXX",
+    "SA": "966XXXXXXXX",
+    "SN": "221XXXXXXXX",
+    "RS": "381XXXXXXXX",
+    "SC": "248XXXXXXXX",
+    "SL": "232XXXXXXXX",
+    "SG": "65XXXXXXXXX",
+    "SX": "1721XXXXXX",
+    "SK": "421XXXXXXXX",
+    "SI": "386XXXXXXXX",
+    "SB": "677XXXXXXXX",
+    "SO": "252XXXXXXXX",
+    "ZA": "27XXXXXXXXX",
+    "GS": "500XXXXXXXX",
+    "SS": "211XXXXXXXX",
+    "ES": "34XXXXXXXXX",
+    "LK": "94XXXXXXXXX",
+    "SD": "249XXXXXXXX",
+    "SR": "597XXXXXXXX",
+    "SJ": "4779XXXX",
+    "SE": "46XXXXXXXXX",
+    "CH": "41XXXXXXXXX",
+    "SY": "963XXXXXXXX",
+    "TW": "886XXXXXXXX",
+    "TJ": "992XXXXXXXX",
+    "TZ": "255XXXXXXXX",
+    "TH": "66XXXXXXXXX",
+    "TL": "670XXXXXXXX",
+    "TG": "228XXXXXXXX",
+    "TK": "690XXXXXXXX",
+    "TO": "676XXXXXXXX",
+    "TT": "1868XXXXXX",
+    "TA": "2908XXXX",
+    "TN": "216XXXXXXXX",
+    "TR": "90XXXXXXXXX",
+    "TM": "993XXXXXXXX",
+    "TC": "1649XXXXXX",
+    "TV": "688XXXXXXXX",
+    "UG": "256XXXXXXXX",
+    "UA": "380XXXXXXXX",
+    "AE": "971XXXXXXXX",
+    "UY": "598XXXXXXXX",
+    "UZ": "998XXXXXXXX",
+    "VU": "678XXXXXXXX",
+    "VA": "3966XXXX",
+    "VE": "58XXXXXXXXX",
+    "VN": "84XXXXXXXXX",
+    "WF": "681XXXXXXXX",
+    "EH": "212XXXXXXXX",
+    "YE": "967XXXXXXXX",
+    "ZM": "260XXXXXXXX",
+    "ZW": "263XXXXXXXX",
+        // Add more formats as needed
+      };
+
+      if (countryFormats.hasOwnProperty(countryCode)) {
+        document.getElementById("phoneNumber").style.display = "none"; // Hide the result initially
+        document.getElementById("copyButton").style.display = "none"; // Hide the copy button
+        document.getElementById("loadingSpinner").style.display = "inline-block"; // Display loading spinner
+
+        setTimeout(() => {
+          const phoneFormat = countryFormats[countryCode];
+          const phoneNumber = generateRandomPhoneNumber(phoneFormat);
+          document.getElementById("phoneNumber").textContent = phoneNumber;
+          document.getElementById("phoneNumber").style.display = "block"; // Display the result after 3 seconds
+          document.getElementById("copyButton").style.display = "inline-block"; // Display the copy button
+          document.getElementById("loadingSpinner").style.display = "none"; // Hide the loading spinner
+        }, 3000);
+      } else {
+        alert("Invalid country code. Please select a valid country code.");
+      }
+
+      return false;
     }
 
-    .column.alpha,.columns.alpha {
-        margin-left: 0;
-        margin-right: 10px
+    function generateRandomPhoneNumber(format) {
+      let phoneNumber = "";
+      for (const char of format) {
+        if (char === "X") {
+          phoneNumber += Math.floor(Math.random() * 10);
+        } else {
+          phoneNumber += char;
+        }
+      }
+      return phoneNumber;
     }
 
-    .column.omega,.columns.omega {
-        margin-right: 0;
-        margin-left: 10px
+    function copyPhoneNumber() {
+      const phoneNumberText = document.getElementById("phoneNumber").textContent;
+      if (phoneNumberText) {
+        const tempInput = document.createElement("input");
+        tempInput.value = phoneNumberText;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        alert("Phone number copied to clipboard.");
+      }
     }
-
-    .alpha.omega {
-        margin-left: 0;
-        margin-right: 0
-    }
-
-    .container .one.column,.container .one.columns {
-        width: 28px
-    }
-
-    .container .two.columns {
-        width: 76px
-    }
-
-    .container .three.columns {
-        width: 124px
-    }
-
-    .container .four.columns {
-        width: 172px
-    }
-
-    .container .five.columns {
-        width: 220px
-    }
-
-    .container .six.columns {
-        width: 268px
-    }
-
-    .container .seven.columns {
-        width: 316px
-    }
-
-    .container .eight.columns {
-        width: 364px
-    }
-
-    .container .nine.columns {
-        width: 412px
-    }
-
-    .container .ten.columns {
-        width: 460px
-    }
-
-    .container .eleven.columns {
-        width: 508px
-    }
-
-    .container .twelve.columns {
-        width: 556px
-    }
-
-    .container .thirteen.columns {
-        width: 604px
-    }
-
-    .container .fourteen.columns {
-        width: 652px
-    }
-
-    .container .fifteen.columns {
-        width: 700px
-    }
-
-    .container .sixteen.columns {
-        width: 748px
-    }
-
-    .container .one-third.column {
-        width: 236px
-    }
-
-    .container .two-thirds.column {
-        width: 492px
-    }
-
-    .container .offset-by-one {
-        padding-left: 48px
-    }
-
-    .container .offset-by-two {
-        padding-left: 96px
-    }
-
-    .container .offset-by-three {
-        padding-left: 144px
-    }
-
-    .container .offset-by-four {
-        padding-left: 192px
-    }
-
-    .container .offset-by-five {
-        padding-left: 240px
-    }
-
-    .container .offset-by-six {
-        padding-left: 288px
-    }
-
-    .container .offset-by-seven {
-        padding-left: 336px
-    }
-
-    .container .offset-by-eight {
-        padding-left: 384px
-    }
-
-    .container .offset-by-nine {
-        padding-left: 432px
-    }
-
-    .container .offset-by-ten {
-        padding-left: 480px
-    }
-
-    .container .offset-by-eleven {
-        padding-left: 528px
-    }
-
-    .container .offset-by-twelve {
-        padding-left: 576px
-    }
-
-    .container .offset-by-thirteen {
-        padding-left: 624px
-    }
-
-    .container .offset-by-fourteen {
-        padding-left: 672px
-    }
-
-    .container .offset-by-fifteen {
-        padding-left: 720px
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .container {
-        width:320px
-    }
-
-    .container .columns,.container .column {
-        margin: 0
-    }
-
-    .container .one.column,.container .one.columns,.container .two.columns,.container .three.columns,.container .four.columns,.container .five.columns,.container .six.columns,.container .seven.columns,.container .eight.columns,.container .nine.columns,.container .ten.columns,.container .eleven.columns,.container .twelve.columns,.container .thirteen.columns,.container .fourteen.columns,.container .fifteen.columns,.container .sixteen.columns,.container .one-third.column,.container .two-thirds.column {
-        width: 320px
-    }
-
-    .container .offset-by-one,.container .offset-by-two,.container .offset-by-three,.container .offset-by-four,.container .offset-by-five,.container .offset-by-six,.container .offset-by-seven,.container .offset-by-eight,.container .offset-by-nine,.container .offset-by-ten,.container .offset-by-eleven,.container .offset-by-twelve,.container .offset-by-thirteen,.container .offset-by-fourteen,.container .offset-by-fifteen {
-        padding-left: 0
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container {
-        width:420px
-    }
-
-    .container .columns,.container .column {
-        margin: 0
-    }
-
-    .container .one.column,.container .one.columns,.container .two.columns,.container .three.columns,.container .four.columns,.container .five.columns,.container .six.columns,.container .seven.columns,.container .eight.columns,.container .nine.columns,.container .ten.columns,.container .eleven.columns,.container .twelve.columns,.container .thirteen.columns,.container .fourteen.columns,.container .fifteen.columns,.container .sixteen.columns,.container .one-third.column,.container .two-thirds.column {
-        width: 420px
-    }
-}
-
-.container:after {
-    content: "\0020";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden
-}
-
-.clearfix:before,.clearfix:after,.row:before,.row:after {
-    content: '\0020';
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0
-}
-
-.row:after,.clearfix:after {
-    clear: both
-}
-
-.row,.clearfix {
-    zoom:1}
-
-.clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0
-}
-.align-center,img.align-center {
-    text-align: center
-}
-
-ol,ul {
-    list-style: none
-}
-
-.subheader,p.lead,select {
-    color: #777
-}
-
-.clearfix,article,aside,details,figcaption,figure,footer,header,hgroup,img,menu,nav,object,section,select,video {
-    display: block
-}
-
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline
-}
-
-body {
-    line-height: 1;
-    background: #fdfdfd;
-    font: 12px/21px Tahoma,Arial,sans-serif;
-    color: #676767;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%
-}
-
-blockquote,q {
-    quotes: none
-}
-
-blockquote:after,blockquote:before,q:after,q:before {
-    content: '';
-    content: none
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
-
-.column img,.columns img {
-    max-width: 100%;
-    height: auto
-}
-
-.content img {
-    border: 1px solid #dfdfdf;
-    margin-bottom: 15px
-}
-
-img,select {
-    border: 0;
-    max-width: 100%
-}
-
-.align-left {
-    float: left
-}
-
-.align-right {
-    float: right
-}
-
-img.align-left {
-    float: left;
-    margin: 0 15px 12px 0
-}
-
-img.align-center {
-    clear: both;
-    margin: 15px auto;
-    display: block
-}
-
-img.align-right {
-    float: right;
-    margin: 0 0 12px 15px
-}
-
-img,object,video {
-    max-width: 100%;
-    height: auto
-}
-
-img {
-    width: auto;
-    -ms-interpolation-mode: bicubic
-}
-
-.embed {
-    position: relative;
-    padding: 0 0 56.25%;
-    height: 0;
-    overflow: hidden
-}
-
-.embed embed,.embed iframe,.embed object {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%
-}
-
-.clearfix {
-    content: ".";
-    height: 0;
-    clear: both;
-    visibility: hidden
-}
-
-.spacer {
-    margin-top: 20px
-}
-
-h1,h2,h3,h4,h5,h6 {
-    color: #464646;
-    font-family: "Open Sans",Arial,sans-serif;
-    font-weight: 400
-}
-
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
-    font-weight: inherit
-}
-
-h3,strong {
-    font-weight: 700
-}
-
-h1 {
-    font-size: 36px;
-    line-height: 50px
-}
-
-h2 {
-    font-size: 35px;
-    line-height: 40px
-}
-
-h3 {
-    font-size: 14px;
-    line-height: 34px
-}
-
-h4 {
-    font-size: 16px;
-    line-height: 30px
-}
-
-h5 {
-    font-size: 14px;
-    line-height: 24px
-}
-
-h6 {
-    font-size: 12px;
-    line-height: 21px
-}
-
-p img {
-    margin: 0
-}
-
-p.lead {
-    font-size: 21px;
-    line-height: 27px
-}
-
-em {
-    font-style: italic
-}
-
-strong {
-    color: #333
-}
-
-small {
-    font-size: 80%
-}
-
-a,a:visited {
-    color: #333;
-    text-decoration: none;
-    outline: 0;
-    -webkit-transition: color .1s ease-in-out;
-    -moz-transition: color .1s ease-in-out;
-    -o-transition: color .1s ease-in-out;
-    -transition: color .1s ease-in-out
-}
-
-a:focus,a:hover {
-    color: #000
-}
-
-p a,p a:visited {
-    line-height: inherit
-}
-
-ol {
-    list-style: decimal
-}
-
-ul.square {
-    list-style: square
-}
-
-ul.circle {
-    list-style: circle
-}
-
-ul.disc {
-    list-style: disc
-}
-
-ol ol,ol ul,ul ol,ul ul {
-    margin: 4px 0 5px 30px;
-    font-size: 90%
-}
-
-ol ol li,ol ul li,ul ol li,ul ul li {
-    margin-bottom: 6px
-}
-
-li {
-    line-height: 18px;
-    margin-bottom: 12px
-}
-
-li p,ul.large li {
-    line-height: 21px
-}
-
-img.scale-with-grid {
-    max-width: 100%;
-    height: auto
-}
-
-select {
-    outline: 0;
-    font: 13px HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: 0 0 20px;
-    width: 210px;
-    cursor: pointer;
-    background: #fff;
-    padding: 0
-}
+  </script>
+</body>
+</html>
+		</div>
+		
+
+			<div class="sixteen columns" id="divider"></div>
+
+				<!-- 1/3 Columns -->
+				<div class="one-third column">
+					<div class="feature">
+						<div class="feature-description">
+						<h3>Why use this online character counter?</h3>
+						<p>Because it gives you you a quick and easy way to instantly get the amount of characters, that you type og paste into the box. The resulting amount is yours to enjoy. You can copy the result and use it anyway you want.</p>
+						<p>I made this service because I know people often need to create and work with text under different restrictions - often with a maximum amount of characters or numbers. If you find the counter here helpful, I would greatly appreciate if you'd share this page with your friends online. Let's make a difference together.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- 1/3 Columns -->
+				<div class="one-third column">
+					<div class="feature">
+						<div class="feature-description">
+						<h3>How does it do the counting?</h3>
+						<p>It is actually very simple, and it only uses a few lines of JavaScript to count the text in the box. So the JavaScript-function is called every time you add a new character or number, to make the result update live. Easy, right?</p>
+						<p>During my daily work I often need to create small bits and pieces of text; A title no longer than 80 characters, a description no longer than 180 characters and so on. And I know I am not the only one who needs a tool, that quickly can count chars, so of course I build one. I use it myself and I hope you will too!</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- 1/3 Columns -->
+				<div class="one-third column">
+					<div class="feature">
+						<div class="feature-description">
+						<h3>What's the catch, you might think?</h3>
+						<p>I promise you, there is no strings attached if you decide to use this tool. It is totally free, and without limitations. So count away! I simply hope the counter will make your day just a little bit easier and more effective, just as it did mine. Maybe I am biased, but if I was you, I'd bookmark this page right away.</p>
+						<p>Thank you for stopping by, I hope the online char counter did its job, and that you'd like to return again in the future. Meanwhile I might launch even more tools, that can make everyday life easier for people working with text, online and such.</p>
+						</div>
+					</div>
+				</div>
+				<!-- End Features -->
+
+			<div class="sixteen columns" id="divider"></div>
+
+	</div>
+	<!-- End 960 Container -->
+			
+		<!--  Footer - Copyright-->
+		<div id="footer_bottom">
+			<!-- 960 Container -->
+			<div class="container">
+
+				<div class="eight columns">
+					<div class="copyright">Rawsting: Online tools to make your day easier</div>
+				</div>
+
+				<div class="eight columns">
+				</div>
+
+			</div><!-- End 960 Container -->
+		</div>
+
+</body>
+
+</html>
